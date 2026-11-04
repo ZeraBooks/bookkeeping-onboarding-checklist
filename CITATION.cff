@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use these files, please cite them as below."
+title: "Bookkeeping onboarding checklist"
+type: dataset
+authors:
+  - name: "ZeraBooks"
+    website: "https://www.zerabooks.com"
+url: "https://github.com/ZeraBooks/"
+repository-code: "https://github.com/ZeraBooks/"
+license: CC-BY-4.0
+abstract: "To start with a new bookkeeper, a business needs to agree the last month it trusts, list every bank, card and loan account, and send statements for every month since, plus the old trial balance, unpaid invoice and bill lists and any payroll and sales tax reports. These files make that list and find the gaps."
+keywords:
+  - bookkeeping
+  - onboarding
+  - small-business
+  - checklist
+  - bank-statements
+  - bookkeeping-services
+  - csv
+date-released: 2026-11-04
