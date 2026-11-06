@@ -1,0 +1,22 @@
+{
+  "missing": {
+    "Operating checking": [],
+    "Factoring reserve": [
+      "2026-01",
+      "2026-02",
+      "2026-03",
+      "2026-04",
+      "2026-05",
+      "2026-06",
+      "2026-07",
+      "2026-08",
+      "2026-09"
+    ],
+    "Truck loan 1": [],
+    "Truck loan 2": []
+  },
+  "not_on_inventory": [],
+  "received_twice": [],
+  "not_needed": [],
+  "missing_total": 9
+}

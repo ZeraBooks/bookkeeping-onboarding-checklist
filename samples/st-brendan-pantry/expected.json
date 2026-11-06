@@ -1,0 +1,19 @@
+{
+  "missing": {
+    "Checking": [],
+    "Savings": [],
+    "Grant account": [
+      "2026-08",
+      "2026-09"
+    ]
+  },
+  "not_on_inventory": [],
+  "received_twice": [],
+  "not_needed": [
+    {
+      "account": "Checking",
+      "month": "2025-09"
+    }
+  ],
+  "missing_total": 2
+}

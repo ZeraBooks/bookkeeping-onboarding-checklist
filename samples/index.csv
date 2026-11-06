@@ -1,0 +1,9 @@
+sample,first_month,last_month,accounts,statements_received,statements_missing,accounts_not_on_inventory
+juniper-lane-bakery,2026-01,2026-10,4,37,3,0
+okafor-family-dental,2025-07,2026-09,4,58,3,1
+brightwater-landscaping,2026-04,2026-10,3,18,0,0
+redline-freight,2026-01,2026-09,4,27,9,0
+fernhill-goods,2026-03,2026-10,4,32,0,0
+vega-cpa,2026-07,2026-10,2,8,0,0
+st-brendan-pantry,2025-10,2026-09,3,35,2,0
+tan-ruiz-law,2026-01,2026-10,3,31,1,1

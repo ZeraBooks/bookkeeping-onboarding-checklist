@@ -1,0 +1,18 @@
+{
+  "missing": {
+    "Operating checking": [],
+    "Payroll checking": [],
+    "Practice card": [],
+    "Equipment loan": [
+      "2025-07",
+      "2025-08",
+      "2025-09"
+    ]
+  },
+  "not_on_inventory": [
+    "Old money market"
+  ],
+  "received_twice": [],
+  "not_needed": [],
+  "missing_total": 3
+}

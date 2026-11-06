@@ -1,0 +1,174 @@
+{
+  "name": "bookkeeping-onboarding-checklist",
+  "version": "1.1.0",
+  "released": "2026-11-05",
+  "publisher": "Zera Books Inc. (ZeraBooks)",
+  "homepage": "https://www.zerabooks.com/bookkeeping-services",
+  "repository": "https://github.com/ZeraBooks/bookkeeping-onboarding-checklist",
+  "license_code": "MIT (LICENSE-CODE)",
+  "license_data": "CC-BY-4.0 (LICENSE)",
+  "fictional_data": true,
+  "file_counts": {
+    "samples": 25,
+    "schema": 3
+  },
+  "files": [
+    {
+      "path": "samples/brightwater-landscaping/accounts-inventory.csv",
+      "bytes": 300,
+      "sha256": "0264cc6dbd14f098dccb4838bd8db5fe9f2931df39c68d3f80e55620e427aed6",
+      "rows": 3
+    },
+    {
+      "path": "samples/brightwater-landscaping/expected.json",
+      "bytes": 272,
+      "sha256": "6a17e27e262e18e543f7e78f88df9a5b69f68ef4a56c0d2f44a7783a6fcfac9e"
+    },
+    {
+      "path": "samples/brightwater-landscaping/statements-received.csv",
+      "bytes": 1048,
+      "sha256": "f5faab4e5ac3297dc79e0dead6c9fbf163c378a35079234f4be12f0adc1ef2f9",
+      "rows": 18
+    },
+    {
+      "path": "samples/fernhill-goods/accounts-inventory.csv",
+      "bytes": 321,
+      "sha256": "db27f554171e0dd1dc4bb1e3c22bf1cc4bd850fd141046b19995da09ba5e0d0e",
+      "rows": 4
+    },
+    {
+      "path": "samples/fernhill-goods/expected.json",
+      "bytes": 204,
+      "sha256": "b842c112600d96b0d35ca996ca732e7cad79506de579e7104ce3af4a0e947754"
+    },
+    {
+      "path": "samples/fernhill-goods/statements-received.csv",
+      "bytes": 1595,
+      "sha256": "2f517316b8354edd35498e8bb085cace6ae9498acf7e41b2a4ef8f2ab893a72c",
+      "rows": 32
+    },
+    {
+      "path": "samples/index.csv",
+      "bytes": 448,
+      "sha256": "7d8e43a0aea3568d32e841021fbb62bcfd4b6f1d4e2f939bece5c22dbc1289f7",
+      "rows": 8
+    },
+    {
+      "path": "samples/juniper-lane-bakery/accounts-inventory.csv",
+      "bytes": 362,
+      "sha256": "fbec250bef4af497be12fea890127b5b37533a003a02ebc00ef5b83edfed77cc",
+      "rows": 4
+    },
+    {
+      "path": "samples/juniper-lane-bakery/expected.json",
+      "bytes": 264,
+      "sha256": "01929155eb0d433407df7b81a929f9a7ec9c38417e657a0bbd711a8c8478fdfa"
+    },
+    {
+      "path": "samples/juniper-lane-bakery/statements-received.csv",
+      "bytes": 1867,
+      "sha256": "5abb8258b705d8c4b922babb56c60f6df8be9ed1d1563be643e0052d99f47e3e",
+      "rows": 37
+    },
+    {
+      "path": "samples/okafor-family-dental/accounts-inventory.csv",
+      "bytes": 376,
+      "sha256": "9751487bce7de846702c3d12c437648ee7103b1c08bbe720d9cac02464d2a6d1",
+      "rows": 4
+    },
+    {
+      "path": "samples/okafor-family-dental/expected.json",
+      "bytes": 303,
+      "sha256": "c6c00e02f67c7cfe469e8b0ff01bfdb5f120d91e9b05aa4bcc3cd254369d09c2"
+    },
+    {
+      "path": "samples/okafor-family-dental/statements-received.csv",
+      "bytes": 3425,
+      "sha256": "ba190c7282548f097909a3fafacbededf5c0a4ea3641ff9da1b11aaadd42865b",
+      "rows": 58
+    },
+    {
+      "path": "samples/redline-freight/accounts-inventory.csv",
+      "bytes": 364,
+      "sha256": "c00168335c7d3245f5f2b37e89c1f6750cbaff65c1e63716dd988151ad08b719",
+      "rows": 4
+    },
+    {
+      "path": "samples/redline-freight/expected.json",
+      "bytes": 377,
+      "sha256": "096ba8392e806d47717b64aa4143444957a4981474f9137373131b0979a355ec"
+    },
+    {
+      "path": "samples/redline-freight/statements-received.csv",
+      "bytes": 1539,
+      "sha256": "2d26c9f5c40c1d372e43a50185d161b3c61180e38704d0b5179d531931b63248",
+      "rows": 27
+    },
+    {
+      "path": "samples/st-brendan-pantry/accounts-inventory.csv",
+      "bytes": 292,
+      "sha256": "e2de38d4f49e0fd73b6ac0b10272fa6fd58274bca56b78c265b53183f8904dec",
+      "rows": 3
+    },
+    {
+      "path": "samples/st-brendan-pantry/expected.json",
+      "bytes": 284,
+      "sha256": "1bc76a8ae362cc48c99a50d65f9936a1acfbefac16a7d0b9b66ca73214469864"
+    },
+    {
+      "path": "samples/st-brendan-pantry/statements-received.csv",
+      "bytes": 1639,
+      "sha256": "5bcdc1672cd38129917283769c75d5dffeff81564da8bad3fffffdbc0d2e4bf5",
+      "rows": 35
+    },
+    {
+      "path": "samples/tan-ruiz-law/accounts-inventory.csv",
+      "bytes": 290,
+      "sha256": "c20e9b2229a1a4a5a962311058ddbdd022276e44ff70c4e225b79e1edc5e8759",
+      "rows": 3
+    },
+    {
+      "path": "samples/tan-ruiz-law/expected.json",
+      "bytes": 223,
+      "sha256": "5aae0bb70bfceb0c75546f9dfb610c9ef8fe6d09351275f420da0dd63823d0a1"
+    },
+    {
+      "path": "samples/tan-ruiz-law/statements-received.csv",
+      "bytes": 1501,
+      "sha256": "e487a89bc3aed9aa37ad11960a6bab266d5d12280cc837efb9dae7ad55f91edb",
+      "rows": 31
+    },
+    {
+      "path": "samples/vega-cpa/accounts-inventory.csv",
+      "bytes": 196,
+      "sha256": "d5ff83b7ae3273de465b16c259f6a197d052b7bf7914a201ff9ff5fdf98675c5",
+      "rows": 2
+    },
+    {
+      "path": "samples/vega-cpa/expected.json",
+      "bytes": 149,
+      "sha256": "1cf394b9320975f939598ffd37121dc7d4a3834211100ae62ed018534e341f6d"
+    },
+    {
+      "path": "samples/vega-cpa/statements-received.csv",
+      "bytes": 347,
+      "sha256": "65aeee9857c534a9b3202a874ec2174655daf1cfe127117218cb2b274ffaef22",
+      "rows": 8
+    },
+    {
+      "path": "schema/accounts-inventory.schema.json",
+      "bytes": 1238,
+      "sha256": "d0ba9cfafea294a0e6eb8e26582775d0ce6fa0a7fafedbe4d73edf46e722b088"
+    },
+    {
+      "path": "schema/document-request.schema.json",
+      "bytes": 576,
+      "sha256": "454ef665a4c30cbdcf6045b8a054cbcd1fd4dc53b28f3c6f84e9861c43f30ea0"
+    },
+    {
+      "path": "schema/statements-received.schema.json",
+      "bytes": 766,
+      "sha256": "cfbb9560bc6f92b4f1627898477120ca63eb5cc157e3f6e522e1ed387248cdbb"
+    }
+  ]
+}

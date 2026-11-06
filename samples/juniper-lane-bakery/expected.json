@@ -1,0 +1,17 @@
+{
+  "missing": {
+    "Operating checking": [],
+    "Savings": [
+      "2026-03",
+      "2026-04"
+    ],
+    "Business card": [],
+    "Square": [
+      "2026-09"
+    ]
+  },
+  "not_on_inventory": [],
+  "received_twice": [],
+  "not_needed": [],
+  "missing_total": 3
+}

@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/ZeraBooks/bookkeeping-onboarding-checklist/schema/statements-received.schema.json",
+  "title": "Statement received row (statements-received.csv)",
+  "type": "object",
+  "required": ["Account", "Month"],
+  "properties": {
+    "Account": {"type": "string", "description": "As on the inventory. A statement for a name not on the inventory is flagged."},
+    "Month": {"type": "string", "pattern": "^[0-9]{4}-(0[1-9]|1[0-2])$", "description": "The month the statement period ends in."},
+    "Last 4": {"type": "string", "description": "Optional. Used to match when the account name differs."},
+    "File": {"type": "string", "description": "Optional. The file received."}
+  }
+}

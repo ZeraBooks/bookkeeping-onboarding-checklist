@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/ZeraBooks/bookkeeping-onboarding-checklist/schema/accounts-inventory.schema.json",
+  "title": "Accounts inventory row (accounts-inventory.csv)",
+  "description": "Every account the business has had in the period the books need, open or closed, and the months a statement is needed for.",
+  "type": "object",
+  "required": ["Account", "Type", "Institution", "Last 4", "First month needed", "Last month needed"],
+  "properties": {
+    "Account": {"type": "string", "minLength": 1, "description": "The name used on statements-received.csv."},
+    "Type": {"enum": ["Bank", "Credit card", "Loan", "Line of credit", "Payment processor", "Merchant account", "Payroll", "Other"]},
+    "Institution": {"type": "string"},
+    "Last 4": {"type": "string", "pattern": "^$|^[0-9]{4}$"},
+    "First month needed": {"type": "string", "pattern": "^[0-9]{4}-(0[1-9]|1[0-2])$", "description": "Usually the month after the last month the books are trusted."},
+    "Last month needed": {"type": "string", "pattern": "^[0-9]{4}-(0[1-9]|1[0-2])$", "description": "The latest closed month, or the month the account was closed."},
+    "Notes": {"type": "string"}
+  }
+}

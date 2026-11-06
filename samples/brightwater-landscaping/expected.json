@@ -1,0 +1,16 @@
+{
+  "missing": {
+    "Operating checking": [],
+    "Fuel card": [],
+    "Old business card": []
+  },
+  "not_on_inventory": [],
+  "received_twice": [
+    {
+      "account": "Operating checking",
+      "month": "2026-05"
+    }
+  ],
+  "not_needed": [],
+  "missing_total": 0
+}

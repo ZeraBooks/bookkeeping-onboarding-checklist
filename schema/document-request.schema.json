@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/ZeraBooks/bookkeeping-onboarding-checklist/schema/document-request.schema.json",
+  "title": "Document request row (document-request.csv)",
+  "type": "object",
+  "required": ["Item", "Why it's needed", "Period", "Applies to", "Received"],
+  "properties": {
+    "Item": {"type": "string"}, "Why it's needed": {"type": "string"}, "Period": {"type": "string"},
+    "Applies to": {"type": "string"}, "Received": {"enum": ["Yes", "No", "Not applicable"]}, "Notes": {"type": "string"}
+  }
+}
